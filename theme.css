@@ -1,0 +1,22 @@
+.cm-bbdc-ds span.cm-keyword { color: #6554C0; }
+.cm-bbdc-ds span.cm-atom { color: #42526E; }
+.cm-bbdc-ds span.cm-number { color: #FFEBE6; }
+.cm-bbdc-ds span.cm-def { color: #FFC400; }
+.cm-bbdc-ds span.cm-property { color: #FFF0B3; }
+.cm-bbdc-ds span.cm-operator { color: #7A869A; }
+.cm-bbdc-ds span.cm-comment { color: #8993A4}
+.cm-bbdc-ds span.cm-string { color: #FFAB00; }
+.cm-bbdc-ds span.cm-tag { color: #36B37E; }
+.cm-bbdc-ds span.cm-error { color: #FF5630; }
+.cm-bbdc-ds span.cm-attribute { color: #2684FF; }
+.cm-bbdc-ds span.cm-bracket { color: #FF8F73; }
+.cm-bbdc-ds span.cm-meta { color: #6B778C; }
+.cm-bbdc-ds span.cm-variable { color: #006644; }
+.cm-bbdc-ds span.cm-variable-2 color: #FFE380; }
+.cm-bbdc-ds span.cm-variable-3 { color: #4C9AFF; }
+.cm-bbdc-ds span.cm-qualifier { color: #0052CC; }
+.cm-bbdc-ds span.cm-invalidchar { color: #DE350B; }
+.cm-bbdc-ds span.cm-builtin { color: #505F79; }
+.cm-bbdc-ds span.cm-header { color: #00B8D9; }
+.cm-bbdc-ds span.cm-link { color: #B3D4FF; }
+.cm-bbdc-ds span.cm-type { color: #344563; }

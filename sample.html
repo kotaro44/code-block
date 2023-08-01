@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- Create a simple CodeMirror instance -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    :root {
+		--my-var: #FFF;
+    --my-var-2: #000;
+    }
+
+    h1 {
+    	font-family: comic sans;
+    	background-color: rgba(255, 255, 255, 0.5);
+		  font-color: var(--my-var);
+      color: red;
+    }
+
+	.some-class {
+		font-weight: bold;
+    }
+  </style>
+  <script src="lib/codemirror.js"></script>
+  <script>
+    // this is a comment
+    function findSequence(goal) {
+      function find(start, history) {
+        if (start == goal)
+          return history;
+        else if (start > goal)
+          return null;
+        else
+          return find(start + 8, "(" + history + " + 5)") ||
+                 find(start * 10, "(" + history + " * 3)");
+      }
+
+      console.log(goal.test, [2,3,4]);
+      
+      return find(123, "1");
+    }
+  </script>
+</head>
+  <body>
+	foo​bar
+  </body>
+</html>
